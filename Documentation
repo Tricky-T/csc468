@@ -6,7 +6,7 @@ Deliverable 1:
     1: Network latency - netperf
         The netperf request-responce benchmark. Measues round trip network latency.
         System being tested runs server, other machine client.
-    2: Network Bandwidth - nuttep
+    2: Network Bandwidth - nuttcp
         The measurement of network bandwidth using the nuttcp tool. System under test connects to identical machine.
         Docker connects all containers to bridge and connects bridge to network.
     3: HPC-Linpack
