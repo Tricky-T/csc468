@@ -1,5 +1,5 @@
 # csc468
-#Anthony Sigismonti
+# Anthony Sigismonti
 # Chin Cheung
 # John Lysle
 Liam Congleton
