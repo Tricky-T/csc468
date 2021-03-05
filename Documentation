@@ -15,4 +15,8 @@ Deliverable 1:
     4: Memory Bandwidth - Stream
         Synthetic Benchmark for sustainable memory bandwidth. Tested using vector operations.
     
+    For our automatic platform instalaiton will use shell scripts to ensure all nones have the correct tools present
+    for testing. These can be used in conjunction with docker compose files to completely automate the creation of
+    all relevent test environments.
+    
     https://drive.google.com/file/d/1rnUlHRROm8RHGl46jj8QTjbRUsI_urli/view
