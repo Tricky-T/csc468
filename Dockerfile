@@ -1,4 +1,4 @@
-FROM hichich:tempsaucy
+FROM hichich/tempsaucy
 
 ADD set_root_pw.sh /set_root_pw.sh
 ADD run.sh /run.sh
