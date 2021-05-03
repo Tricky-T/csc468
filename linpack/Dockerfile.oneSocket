@@ -11,7 +11,7 @@ RUN sed -i s/security.ubuntu/old-releases.ubuntu/g /etc/apt/sources.list
 RUN apt-get -qq install -y libgomp1 numactl
 */
 RUN apt-get update
-RUN apt-get install numactl -y
+RUN apt-get install -y numactl 
 
 ADD bin /
 CMD numactl --physcpubind=0-7,16-23 --localalloc /runme_xeon64
