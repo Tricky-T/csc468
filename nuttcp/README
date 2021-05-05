@@ -1,5 +1,10 @@
 This is nuttcp, a versatile network microbenchmark
 
+run nuttcp -C on server
+run the corresponding script on the test client
+
+
+
 VM (run on arldcn24)
 	./vm.sh
 
