@@ -26,9 +26,6 @@ for i in range(num_nodes):
     node = request.RawPC("arldcn28")
   else:
     node = request.RawPC("arldcn24")
-    #node = request.XenVM("worker-" + str(i))
-  #node.cores = 12#node.cores = 4
-  #node.ram = 32768#node.ram = 8192
   node.routable_control_ip = "true" 
   node.disk_image = "urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU18-64-STD"
   iface = node.addInterface("if" + str(i))
@@ -38,5 +35,5 @@ for i in range(num_nodes):
   
   # setup Docker
   node.addService(pg.Execute(shell="sh", command="sudo bash /local/repository/install_docker.sh"))
-  node.addService(pg.Execute(shell="sh", command="sudo bash /local/repository/setupSaucy.sh"))
+  node.addService(pg.Execute(shell="/bin/bash", command="sudo bash /local/repository/setuptutum.sh"))
 pc.printRequestRSpec(request)
