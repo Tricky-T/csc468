@@ -1,7 +1,7 @@
 This is Intel-optimized Linpack version 11.1.2.005 from
 http://software.intel.com/en-us/articles/intel-math-kernel-library-linpack-download
 
-#Setup
+# Setup
 
 To run the tests: enter the command sudo bash doit.sh
 This will run the native and docker versions 20 times for each CPU configuration.
