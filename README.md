@@ -12,4 +12,4 @@ All dockerfiles in our tests rely on the image it creates.
 Cloudlab does not like the script, so run "sudo docker image ls"  
 If there is no docker image known as "ourtutum," directly executre the script.  
 Running "sudo bash setuptutum.sh" will create the needed image.  
-After this choose one of the four benchmarks and follow the instuctions contained within it's README file.  
+After this choose one of the four benchmarks and follow the instuctions contained within its README file.  
