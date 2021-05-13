@@ -7,7 +7,7 @@
 ## We chose the performance evaluation of virtualization approaches project. We will run multiple tests for the performance of different virtualization methods and record the result. These tests will be performed on different architectures to see how they vary.
 
 # Getting started  
-Make sure that the script setuptutum.sh ran.  
+Make sure that the script setuptutum.sh ran on both nodes.  
 All dockerfiles in our tests rely on the image it creates.  
 Cloudlab does not like the script, so run "sudo docker image ls"  
 If there is no docker image known as "ourtutum," directly executre the script.  
