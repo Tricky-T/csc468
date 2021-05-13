@@ -2,14 +2,14 @@
 
 To test native performance:
 
-Run the linuxServer.sh file on the chosen server node.
+Run the linuxServer.sh file on the arldcn28 node.
 After it is complete there is a netserver already running.
 
-Now go to the client node and run
+Now go to the client node and run linux.sh
 After it is complete run sudo killall netserver on the server.
 
 To test docker performance:
-Run dockerServer.sh on the chosen server node.
+Run dockerServer.sh on the arldcn28 node.
 
 Now go to the client node and run dockerClient.sh
 After it is complete use docker stop to end the server container.
